@@ -20,6 +20,7 @@ export default defineConfig({
   expect: { timeout: 5000 },
   use: {
     baseURL: process.env.BASE_URL || 'https://playwright.dev',
+    video: 'retain-on-failure',
     trace: 'on-first-retry',
   },
 
