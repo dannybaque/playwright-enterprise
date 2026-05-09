@@ -11,4 +11,4 @@ test('should validate playwright homepage content', async({page})=>{
 
     await expect(page).toHaveTitle(/Playwright/);
 
-})
+});
